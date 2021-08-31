@@ -1,0 +1,25 @@
+﻿<Window x:Class="Basic_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Basic_Calculator"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="Calculator" Height="450" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="subtractButton" Content="Subtract" HorizontalAlignment="Center" Margin="0,0,0,118" VerticalAlignment="Bottom" Width="144" Height="28" Click="subtractButton_Click"/>
+        <Button x:Name="multiplyButton" Content="Multiply" HorizontalAlignment="Center" Margin="0,0,0,82" VerticalAlignment="Bottom" Width="144" Height="28" Click="multiplyButton_Click"/>
+        <Button x:Name="divideButton" Content="Divide" HorizontalAlignment="Center" Margin="0,0,0,47" VerticalAlignment="Bottom" Width="144" Height="28" Click="divideButton_Click"/>
+        <Button x:Name="addButton" Content="Add" HorizontalAlignment="Center" Margin="0,0,0,153" VerticalAlignment="Bottom" Width="144" Height="28" Click="addButton_Click"/>
+        <Button x:Name="modulusButton" Content="Modulus" HorizontalAlignment="Center" Margin="0,0,0,14" VerticalAlignment="Bottom" Width="144" Height="28" Click="modulusButton_Click"/>
+        <Label x:Name="ansTxt" Content="" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,242" VerticalAlignment="Bottom" Width="170"/>
+        <TextBox x:Name="firstNumBox" HorizontalAlignment="Center" Margin="0,0,0,338" Text="1st #" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+        <TextBox x:Name="secondNumBox" HorizontalAlignment="Center" Margin="0,0,0,294" Text="2nd #" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="51" Width="85" Click="clearButton_Click"/>
+
+    </Grid>
+</Window>

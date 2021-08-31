@@ -1,0 +1,51 @@
+﻿<Window x:Class="Grade_App_cs24.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grade_App_cs24"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="659,295,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <StackPanel Margin="128,0,530,0">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="0,20,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBox x:Name="grade1" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="grade2" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="grade3" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="grade4" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="grade5" TextWrapping="Wrap" Width="120"/>
+
+        </StackPanel>
+        <StackPanel Margin="0,0,673,0">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Margin" Value="0,13,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="First Grade"/>
+            <Label Content="Second Grade"/>
+            <Label Content="Third Grade"/>
+            <Label Content="Fourth Grade"/>
+            <Label Content="Fifth Grade"/>
+
+
+        </StackPanel>
+        <Label x:Name="totalScore" Content="Label" HorizontalAlignment="Left" Margin="560,101,0,0" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="avgScore" Content="Label" HorizontalAlignment="Left" Margin="560,35,0,0" VerticalAlignment="Top" Width="180"/>
+
+
+
+
+    </Grid>
+</Window>

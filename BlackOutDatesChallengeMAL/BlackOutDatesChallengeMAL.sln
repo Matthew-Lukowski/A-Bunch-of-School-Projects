@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackOutDatesChallengeMAL", "BlackOutDatesChallengeMAL.csproj", "{74D78657-C31D-4FEB-B856-6787DD2B3180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D78657-C31D-4FEB-B856-6787DD2B3180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D78657-C31D-4FEB-B856-6787DD2B3180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D78657-C31D-4FEB-B856-6787DD2B3180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D78657-C31D-4FEB-B856-6787DD2B3180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14165BB9-4B71-4E20-9FBC-511A8734B5C0}
+	EndGlobalSection
+EndGlobal
